@@ -18,10 +18,10 @@ var johnLennonFacts = (factArray) => {
 
 var iLoveTheBeatles = (numberOfTimes) => {
   var superBeatleLove = [];
-  let n = 0;
+  let n = numberOfTimes;
   do{
     superBeatleLove.push("I love the Beatles!")
-    n += numberOfTimes
+    n++
   } while (n < 15);
   return superBeatleLove;
 }
