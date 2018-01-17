@@ -11,7 +11,7 @@ var johnLennonFacts = (factArray) => {
   let counter = 0;
   while (counter < factArray.length) {
     excitedFacts[counter] = `${factArray[counter]}!!!`
-    counter--
+    counter++
   }
   return excitedFacts
 }
