@@ -15,3 +15,12 @@ var johnLennonFacts = (factArray) => {
   }
   return excitedFacts
 }
+
+var iLoveTheBeatles = (numberOfTimes) => {
+  var superBeatleLove = [];
+  let n = 0;
+  do{
+    superBeatleLove[n] = "I love the Beatles!"
+    n++
+  } while (n < numberOfTimes.length);
+}
