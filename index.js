@@ -21,7 +21,7 @@ var iLoveTheBeatles = (numberOfTimes) => {
   let n = 0;
   do{
     superBeatleLove[n] = "I love the Beatles!"
-    n++
-  } while (n < numberOfTimes.length);
+    n += numberOfTimes
+  } while (n < 15);
   return superBeatleLove;
 }
