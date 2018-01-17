@@ -20,7 +20,7 @@ var iLoveTheBeatles = (numberOfTimes) => {
   var superBeatleLove = [];
   let n = 0;
   do{
-    superBeatleLove.push = "I love the Beatles!"
+    superBeatleLove.push("I love the Beatles!")
     n += numberOfTimes
   } while (n < 15);
   return superBeatleLove;
