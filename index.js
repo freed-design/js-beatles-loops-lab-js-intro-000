@@ -23,4 +23,5 @@ var iLoveTheBeatles = (numberOfTimes) => {
     superBeatleLove[n] = "I love the Beatles!"
     n++
   } while (n < numberOfTimes.length);
+  return superBeatleLove;
 }
